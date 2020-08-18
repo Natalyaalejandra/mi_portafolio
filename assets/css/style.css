@@ -3,4 +3,31 @@ body {
 }
 
 texto especial
-font-family: 'Oswald', sans-serif; 
+font-family: 'Oswald', sans-serif;
+
+/*navbar*/
+.navbar {
+  font-weight: 700,
+}
+
+.navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+.bg-color{ /*navbar y footer color*/
+
+}
+
+/*sobre mi*/
+.about-me {
+  text-align: left;
+}
+
+/*experiencia*/
+
+/*trabajos*/
+
+/*contacto*/
+
+/*footer*/
