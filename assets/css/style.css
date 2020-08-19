@@ -2,8 +2,15 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-texto especial
-font-family: 'Oswald', sans-serif;
+.titulo, .subtitulo {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+.subtitulo {
+  padding-top: 3rem;
+  color: #29271B;
+}
 
 /*navbar*/
 .navbar {
@@ -13,10 +20,11 @@ font-family: 'Oswald', sans-serif;
 .navbar-brand {
   font-family: 'Caveat', cursive;
   font-weight: 700;
+  font-size: 2rem;
 }
 
 .bg-color{ /*navbar y footer color*/
-  background-color: #660066;
+  background-color: #405556;
 
 }
 
@@ -29,6 +37,8 @@ font-family: 'Oswald', sans-serif;
 }
 
 .texto-header {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
   color: white;
 }
 
@@ -38,7 +48,9 @@ font-family: 'Oswald', sans-serif;
 }
 
 /*experiencia*/
-
+.fas {
+  color: #D0BC99;
+}
 /*trabajos*/
 
 /*contacto*/
