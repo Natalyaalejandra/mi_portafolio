@@ -11,12 +11,25 @@ font-family: 'Oswald', sans-serif;
 }
 
 .navbar-brand {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Caveat', cursive;
   font-weight: 700;
 }
 
 .bg-color{ /*navbar y footer color*/
+  background-color: #660066;
 
+}
+
+/*header*/
+.header {
+  background-image: url(../img/bg_hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6.25rem 3.125rem;
+}
+
+.texto-header {
+  color: white;
 }
 
 /*sobre mi*/
@@ -31,3 +44,6 @@ font-family: 'Oswald', sans-serif;
 /*contacto*/
 
 /*footer*/
+.footer {
+  margin: 0;
+}
