@@ -19,8 +19,8 @@
 <body>
 
   <!--navbar. link con smooth scroll. con logo-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-color px-5">
-    <div class="container-fluid mx-0 px-0">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-color px-5 fixed-top">
+    <div class="container-fluid mx-0 px-0 ">
       <a class="navbar-brand" href="#">NA<span class="sr-only">(current)</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
 
   <!--background-img (mi foto)-->
   <header class="container-fluid header text-center">
-    <div class="container texto-header">
+    <div class="container texto-header pt-5">
       <h1>Natalya Avendaño</h1>
       <hr>
     </div>
@@ -71,12 +71,15 @@
     <hr>
     <div class="row">
       <div class="col-12 col-md-6">
-        <img src="" alt="img">
-        <p>Lorem ipsum dolor sit amet</p>
+        <div><img class="img-fluid" src="assets/img/PUC_logo.png" alt="PUC_logo"></div>
+
+        <p>Bióloga</p>
+        <p><small>2011-2017</small></p>
       </div>
       <div class="col-12 col-md-6">
-        <img src="" alt="img">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <img src="assets/img/logo_dl.png" alt="Desafio-latam-logo">
+        <p>Diseño UX/UI</p>
+        <p><small>Actual</small></p>
       </div>
     </div>
 
@@ -143,11 +146,15 @@
 
   <!--formulario de contacto con typeform-->
   <section id="contacto" class="contacto container text-center">
-    <h2>CONVERSEMOS</h2>
+    <h2 class="text-section pt-5">CONVERSEMOS</h2>
+    <hr>
+
+    <div class="typeform-widget" data-url="https://form.typeform.com/to/ATwhQDB5" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=ATwhQDB5&utm_source=typeform.com-01EFFBQP0JNNHQFB58T9ZMBND0-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+
   </section>
 
   <!--footer con links a redes sociales (github, linkedin, instagram, facebook)-->
-  <footer class="container-fluid footer text-center p-3 bg-color navbar-brand text-white">
+  <footer class="container-fluid footer text-center p-3 bg-color navbar-brand text-white mt-5">
     <div class="row container">
       <div class="col-6 text-right">
         <p>Natalya Avendaño</p>
