@@ -2,8 +2,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+h3 {
+  font-size: 4.3rem;
+}
+
 .titulo {
   font-size: 4.5rem;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
 }
 
 .titulo, .subtitulo {
@@ -14,6 +19,7 @@ body {
 .subtitulo {
   padding-top: 3rem;
   color: #29271B;
+  font-size: 3.2rem;
 }
 
 .linea { /*revisar*/
@@ -41,33 +47,41 @@ body {
   background-image: url(../img/bg_hero.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   height: 100vh;
+  position: center center;
 }
+
 
 .texto-header {
   font-family: 'Oswald', sans-serif;
   font-weight: 200;
   color: white;
+  font-size: 4.5rem;
   position: absolute;
   bottom: 1rem;
-
 }
 
+/*sobre mi*/
 .referencia {
   text-decoration: none;
   style: none;
 }
 
-/*sobre mi*/
-
 .about-me {
   text-align: left;
   margin-top: 3rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.blockquote {
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .aqui {
-
+  color: black;
 }
 
 /*experiencia*/
@@ -96,10 +110,11 @@ body {
   text-decoration: none;
   style: none;
 }
+
 .footer i {
   color: white;
 }
+
 .footer {
   margin: 0;
-
 }
