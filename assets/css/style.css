@@ -1,7 +1,9 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
-
+.titulo {
+  font-size: 4.5rem;
+}
 .titulo, .subtitulo {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
@@ -10,6 +12,10 @@ body {
 .subtitulo {
   padding-top: 3rem;
   color: #29271B;
+}
+
+.linea { /*revisar*/
+  border-bottom: 3rem, solid, black;
 }
 
 /*navbar*/
@@ -33,7 +39,8 @@ body {
   background-image: url(../img/bg_hero.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 6.25rem 3.125rem;
+  padding: 20rem;
+  background-position: center;
 }
 
 .texto-header {
@@ -43,19 +50,34 @@ body {
 }
 
 /*sobre mi*/
+.sobremi {
+  margin-top: 3rem;
+}
 .about-me {
   text-align: left;
+  margin-top: 3rem;
 }
 
 /*experiencia*/
 .fas {
   color: #D0BC99;
 }
+.experiencia {
+  padding: 3rem;
+}
 /*trabajos*/
 
 /*contacto*/
 
 /*footer*/
+.footer p {
+  text-decoration: none;
+  style: none;
+}
+.footer i {
+  color: white;
+}
 .footer {
   margin: 0;
+
 }
