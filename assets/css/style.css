@@ -1,9 +1,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
 .titulo {
   font-size: 4.5rem;
 }
+
 .titulo, .subtitulo {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
@@ -15,7 +17,7 @@ body {
 }
 
 .linea { /*revisar*/
-  border-bottom: 3rem, solid, black;
+  border-bottom: 0.2rem solid #D0BC99;
 }
 
 /*navbar*/
@@ -39,20 +41,26 @@ body {
   background-image: url(../img/bg_hero.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 20rem;
   background-position: center;
+  height: 100vh;
 }
 
 .texto-header {
   font-family: 'Oswald', sans-serif;
   font-weight: 200;
   color: white;
+  position: absolute;
+  bottom: 1rem;
+
+}
+
+.referencia {
+  text-decoration: none;
+  style: none;
 }
 
 /*sobre mi*/
-.sobremi {
-  margin-top: 3rem;
-}
+
 .about-me {
   text-align: left;
   margin-top: 3rem;
