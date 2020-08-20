@@ -67,7 +67,7 @@ body {
 }
 
 .aqui {
-  
+
 }
 
 /*experiencia*/
@@ -85,8 +85,11 @@ body {
 }
 
 /*trabajos*/
-
+.card {
+  border-color: #194343;
+}
 /*contacto*/
+
 
 /*footer*/
 .footer p {
