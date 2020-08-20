@@ -15,6 +15,8 @@ $(function(){
       } //fin del if
   });
 
+  $('[data-toggle="popover"]').popover();
+
 
 
 
