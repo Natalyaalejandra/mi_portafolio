@@ -2,8 +2,9 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h3 {
+h1 {
   font-size: 4.3rem;
+  font-weight: 300;
 }
 
 .titulo {
@@ -44,7 +45,7 @@ h3 {
 
 /*header*/
 .header {
-  background-image: url(../img/bg_hero.png);
+  background-image: url(../img/bg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
