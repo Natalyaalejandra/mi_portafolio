@@ -2,12 +2,15 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
+h3 {
+  font-family: 'Oswald', sans-serif;
   font-size: 4.3rem;
   font-weight: 300;
+  padding-right: 10rem;
 }
 
 .titulo {
+  font-family: 'Oswald', sans-serif;
   font-size: 4.5rem;
   text-shadow: 0.125em 0.25em 0.125em #707070;
 }
@@ -48,9 +51,9 @@ h1 {
   background-image: url(../img/bg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   height: 100vh;
-  position: center center;
+  position: center;
 }
 
 
@@ -60,7 +63,7 @@ h1 {
   color: white;
   font-size: 4.5rem;
   position: absolute;
-  bottom: 1rem;
+  bottom: 6rem;
 }
 
 /*sobre mi*/
@@ -102,6 +105,14 @@ h1 {
 /*trabajos*/
 .card {
   border-color: #194343;
+}
+
+.card-title, .modal-title {
+  font-weight: 600;
+}
+
+.card-text, .modal-body p {
+  font-weight: 300;
 }
 /*contacto*/
 
