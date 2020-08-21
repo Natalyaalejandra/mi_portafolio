@@ -2,6 +2,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+@media (max-widht: 576px) {
+  .yosoy{
+    font-size: 3rem;
+}
+
 .yosoy {
   font-family: 'Oswald', sans-serif;
   font-size: 4.3rem;
@@ -12,7 +17,7 @@ body {
 .titulo {
   font-family: 'Oswald', sans-serif;
   font-size: 4.5rem;
-  text-shadow: 0.125em 0.25em 0.125em #707070;
+  text-shadow: 0.125em 0.25em 0.125em #29271B;
 }
 
 .titulo, .subtitulo {
