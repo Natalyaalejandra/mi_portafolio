@@ -2,10 +2,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-@media (max-widht: 576px) {
-  .yosoy{
-    font-size: 3rem;
-}
 
 .yosoy {
   font-family: 'Oswald', sans-serif;
@@ -37,7 +33,7 @@ body {
 
 /*navbar*/
 .navbar {
-  font-weight: 700,
+  font-weight: 700;
 }
 
 .navbar-brand {
@@ -53,7 +49,8 @@ body {
 
 /*header*/
 .header {
-  position: relative;
+  z-index: 99999; /*elimina el borde blanco en mobile*/
+  padding: 10px 0; /*elimina el borde blanco en mobile*/
   background-image: url(../img/bg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,11 +71,6 @@ body {
 }
 
 /*sobre mi*/
-.referencia {
-  text-decoration: none;
-  style: none;
-}
-
 .about-me {
   text-align: left;
   margin-top: 3rem;
@@ -130,10 +122,15 @@ body {
   style: none;
 }
 
-.footer i {
+.fab {
   color: white;
 }
 
 .footer {
   margin: 0;
+}
+
+@media (max-width: 576px) {
+  .yosoy{
+    font-size: 2.5rem;
 }
