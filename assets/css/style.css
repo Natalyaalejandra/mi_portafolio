@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h3 {
+.yosoy {
   font-family: 'Oswald', sans-serif;
   font-size: 4.3rem;
   font-weight: 300;
@@ -48,12 +48,14 @@ h3 {
 
 /*header*/
 .header {
+  position: relative;
   background-image: url(../img/bg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
-  position: center;
+  display:inline-block;
+  text-align: center;
 }
 
 
